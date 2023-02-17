@@ -14,9 +14,9 @@ void main(){
     int suma[2] = {0}; //cost
     int i,e;
 
-    FILE *file = fopen("archivo.txt","r"); //origen   
+    FILE *file = fopen("archivo.txt","r"); //read file   
     if(file==NULL){printf("\nEl archivo no se puede abrir");}
-    FILE *result = fopen("resultadoBinario.txt","w+");      //destiny 
+    FILE *result = fopen("resultadoBinario.txt","w+");      //result 
     if(result==NULL){printf("\nEl archivo no se puede abrir");}
 
     Cola cola = crearCola(&e);
