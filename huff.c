@@ -54,7 +54,7 @@ void main(){
         asignaCodigo(raiz, codigo, 0, fgetc(file), result);   
     } 
 
-    //decodification
+    //decoding
     //Note: When read the file we got an extra bit '1' so i had to put it out of the array
     int* dataToDecode = (int*)malloc(sizeof(int)*suma[0]);  
     if(dataToDecode==NULL)exit(-1);
